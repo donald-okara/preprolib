@@ -9,7 +9,7 @@ Open a command prompt or terminal.
 1. Use the following command to install the library directly from GitHub using pip:
 
 
-pip install git https://github.com/donald-okara/preprolib
+pip install git+https://github.com/donald-okara/preprolib.git
 
 2. Import and use the library in your code:
 
