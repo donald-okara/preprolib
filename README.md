@@ -85,15 +85,9 @@ Categorical Columns: ['Gender']
 
 In this example, the `cat_or_num()` function is used to identify numerical and categorical columns in the DataFrame `df`. The output shows that the `Age` and `Income` columns are identified as numerical, while the `Gender` column is identified as categorical. The `City` column is ignored as specified in the `ignore_list`.
 
-## Contributing
 
-Contributions to preprolib are welcome! For bug reports, feature requests, or questions, open an issue or submit a pull request. See [Contribution Guidelines](CONTRIBUTING.md) for details.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-For questions or inquiries, reach out to us at contact@example.com or visit our website at https://example.com.
+For questions or inquiries, reach out at isoedonald@gmail.com 
 
