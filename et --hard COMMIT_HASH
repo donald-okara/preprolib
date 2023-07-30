@@ -1,0 +1,115 @@
+[33mcommit 735b5f9a19725e621576d2493856660c6ca79c79[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: donald-okara <donaldokara123@gmail.com>
+Date:   Sun Jul 30 10:18:12 2023 +0300
+
+    Conflicts handled. Hopefully
+
+[33mcommit 5d05cac5ff56efea9f4e1f8107ceec6543b55719[m
+Merge: 3130436 8049551
+Author: donald-okara <donaldokara123@gmail.com>
+Date:   Sun Jul 30 10:13:10 2023 +0300
+
+    Merge branch 'main' of https://github.com/donald-okara/preprolib
+
+[33mcommit 3130436cc67c587d29c9fdab3bb7edef207d47d2[m
+Author: donald-okara <donaldokara123@gmail.com>
+Date:   Sun Jul 30 09:48:54 2023 +0300
+
+    update evaluate_model function 1
+
+[33mcommit 80495519da84e8147ac80a645ad5ba9b7cbc49b6[m
+Author: donald-okara <donaldokara123@gmail.com>
+Date:   Sun Jul 30 09:48:54 2023 +0300
+
+    update evaluate_model function 1
+
+[33mcommit 054cd73765f8dd1f41138805ddc32a8254fbf10e[m
+Author: donald-okara <donaldokara123@gmail.com>
+Date:   Sun Jul 30 09:44:08 2023 +0300
+
+    update evaluate_model function
+
+[33mcommit 7cf1f18b7d240bed7da25e99b570fea3dcb59296[m
+Merge: 9d5e0c6 f26b1ee
+Author: donald-okara <donaldokara123@gmail.com>
+Date:   Sun Jul 30 09:30:55 2023 +0300
+
+    Merge branch 'main' of https://github.com/donald-okara/preprolib
+
+[33mcommit 9d5e0c6c29e4c9077485fab105c5282ba7b964a1[m
+Author: donald-okara <donaldokara123@gmail.com>
+Date:   Sun Jul 30 09:30:41 2023 +0300
+
+    update version name
+
+[33mcommit f26b1eebb64c96524c386770654cfe997a77adb0[m
+Author: Don Okara <47844892+donald-okara@users.noreply.github.com>
+Date:   Sun Jul 30 09:11:54 2023 +0300
+
+    Update myfunctions.py
+
+[33mcommit df2d84ca5697db2f662728bc5e11df4cd112c42b[m
+Author: donald-okara <donaldokara123@gmail.com>
+Date:   Sun Jul 30 09:02:44 2023 +0300
+
+    Add evaluate model function
+
+[33mcommit 6fadb28f2fda0461e9c9d8a760a9834b8b0dc60f[m
+Author: Don Okara <47844892+donald-okara@users.noreply.github.com>
+Date:   Tue Jul 18 15:39:43 2023 +0300
+
+    Update README.md
+
+[33mcommit be7211977cbde57464fcb2e131fc068310a4505e[m
+Author: Don Okara <47844892+donald-okara@users.noreply.github.com>
+Date:   Tue Jul 18 15:38:28 2023 +0300
+
+    Update README.md
+
+[33mcommit 87a536fd0291f8febfc07e32c2ab73286cdf601f[m
+Author: Don Okara <47844892+donald-okara@users.noreply.github.com>
+Date:   Tue Jul 18 15:17:43 2023 +0300
+
+    Add files via upload
+
+[33mcommit 3df4e81ebadd5492c7afa502f7442748c9953832[m
+Author: Don Okara <47844892+donald-okara@users.noreply.github.com>
+Date:   Tue Jul 18 15:17:06 2023 +0300
+
+    Delete preprolib directory
+
+[33mcommit 6db694d728760f74c2de629bf4b8164537da7b28[m
+Author: Don Okara <47844892+donald-okara@users.noreply.github.com>
+Date:   Tue Jul 18 15:11:10 2023 +0300
+
+    Add files via upload
+
+[33mcommit 81c6a99529eb20d6a03a3cdbd1a0edb0d683a01e[m
+Author: Don Okara <47844892+donald-okara@users.noreply.github.com>
+Date:   Tue Jul 18 15:07:33 2023 +0300
+
+    Update README.md
+
+[33mcommit 5727dbf2ae86267e93f741ee49abf27aab3f4b54[m
+Author: Don Okara <47844892+donald-okara@users.noreply.github.com>
+Date:   Tue Jul 18 07:15:34 2023 +0300
+
+    Update README.md
+
+[33mcommit 02d00fa45207ed2ea2eb30c69e3d5010dc5ec91c[m
+Author: Don Okara <47844892+donald-okara@users.noreply.github.com>
+Date:   Sun Jul 16 17:11:55 2023 +0300
+
+    Update README.md
+
+[33mcommit 4b44b83657cf59047b6a5e345ed35314380affe1[m
+Author: Don Okara <47844892+donald-okara@users.noreply.github.com>
+Date:   Sun Jul 16 16:48:35 2023 +0300
+
+    Initial commit
+
+[33mcommit 67f4af13f9e6b946062d37d939526f0269337d6f[m
+Author: Don Okara <47844892+donald-okara@users.noreply.github.com>
+Date:   Sun Jul 16 16:37:25 2023 +0300
+
+    Initial commit
