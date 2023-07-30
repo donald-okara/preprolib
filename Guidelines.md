@@ -72,7 +72,7 @@ We appreciate your help in improving preprolib! If you encounter any bugs or une
 
 1. **Check Existing Bug Reports**: Before reporting a new bug, please check if the problem has already been reported by searching the repository's issues.
 
-2. **Open a New Bug Report**: If you couldn't find an existing bug report that matches the issue you encountered, go ahead and [open a new bug report](.github\ISSUE_TEMPLATE\bug_report.md). When opening a new bug report, please provide as much detail as possible, including:
+2. **Open a New Bug Report**: If you couldn't find an existing bug report that matches the issue you encountered, go ahead and [open a new bug report](https://github.com/donald-okara/preprolib/issues/new?assignees=&labels=&projects=&template=bug_report.md&title=). When opening a new bug report, please provide as much detail as possible, including:
 
    - A clear and descriptive title.
    - A detailed description of the problem or bug.
@@ -89,7 +89,7 @@ If you have ideas for new features, enhancements, or improvements to add to prep
 
 1. **Check Existing Requests**: Before submitting a new feature request, please check if a similar idea has already been suggested by searching the repository's issues.
 
-2. **Open a New Feature Request**: If your feature request is unique or adds significant value to the library, [open a new feature request](.github\ISSUE_TEMPLATE\feature_request.md). When submitting a feature request, please provide a clear and concise description of the proposed feature or enhancement.
+2. **Open a New Feature Request**: If your feature request is unique or adds significant value to the library, [open a new feature request](https://github.com/donald-okara/preprolib/issues/new?assignees=&labels=&projects=&template=feature_request.md&title=). When submitting a feature request, please provide a clear and concise description of the proposed feature or enhancement.
 
 3. **Feature Request Discussion**: Once you've submitted a feature request, it will be reviewed by the maintainers and other community members. Feel free to engage in the discussion to provide additional context or clarifications for your proposal.
 
