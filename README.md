@@ -8,8 +8,6 @@ Install the library using pip:
 
 Open a command prompt or terminal.
 
-1. Use the following command to install the library directly from GitHub using pip:
-
 ```bash
 pip install git+https://github.com/donald-okara/preprolib.git
 ```
