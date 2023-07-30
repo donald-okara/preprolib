@@ -1,4 +1,3 @@
-
 def cat_or_num(dataframe, ignore, numeric_columns, categorical_columns):
     """ This function appends a column to the appropriate datatype list. Ensure there is a list of columns numeric_columns and categorical_columns"""
     import numpy as np
@@ -24,3 +23,15 @@ def cat_or_num(dataframe, ignore, numeric_columns, categorical_columns):
             except NameError:
                 print("The variable categorical_columns list is not present.")
                 print("Please make sure it is present before using it.")
+
+def evaluate_model(curr_model, X_test, y_test):
+    import pandas as pd
+    from sklearn.metrics import classification_report, accuracy_score, precision_score, recall_score, f1_score
+    
+    predictions = curr_model.predict(X_test)
+    # Calculate the necessary metrics
+    accuracy = accuracy_score(y_test, predictions)
+    precision = precision_score(y_test, predictions, average='weighted')
+    recall = recall_score(y_test, predictions, average='weighted')
+    f1 = f1_score(y_test, predictions, average='weighted')
+
