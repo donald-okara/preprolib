@@ -9,7 +9,7 @@ Install the library using pip:
 1. Open a command prompt or terminal.
 2. Use the following command to install the library directly from GitHub using pip:
 
-```
+```bash
 pip install git+https://github.com/donald-okara/preprolib.git
 ```
 
@@ -85,9 +85,47 @@ Categorical Columns: ['Gender']
 
 In this example, the `cat_or_num()` function is used to identify numerical and categorical columns in the DataFrame `df`. The output shows that the `Age` and `Income` columns are identified as numerical, while the `Gender` column is identified as categorical. The `City` column is ignored as specified in the `ignore_list`.
 
+### 2. evaluate_model()
 
+Function Signature:
+```python
+def evaluate_model(curr_model, X_test, y_test):
+```
+
+**Expected Parameters:**
+- `curr_model`: This parameter represents the trained model that you want to evaluate.
+- `X_test`: This parameter represents the test data (features) that the model will be evaluated on.
+- `y_test`: This parameter represents the true labels for the test data.
+
+**Function Description:**
+The `evaluate_model()` function is used to evaluate the performance of a trained machine learning model using classification metrics such as accuracy, precision, recall, and F1-score. It takes the trained model (`curr_model`), test features (`X_test`), and true test labels (`y_test`) as input.
+
+The function performs the following steps:
+
+1. Uses the `curr_model` to predict the labels for the test data `X_test`.
+2. Converts the one-hot encoded `y_test` to a one-dimensional array of integer labels using `argmax`.
+3. Calculates the accuracy, precision, recall, and F1-score using the predicted labels and the true labels.
+4. Prints the evaluation results, including accuracy, precision, recall, and F1-score.
+
+**Usage Example:**
+```python
+# Assuming you have trained a model 'my_model' and prepared the test data 'X_test' and 'y_test'
+from preprolib.myfunctions import evaluate_model
+
+evaluate_model(my_model, X_test, y_test)
+```
+
+**Output:**
+```
+Model Evaluation:
+Accuracy: 0.85
+Precision: 0.86
+Recall: 0.85
+F1-score: 0.85
+```
+
+In this example, the `evaluate_model()` function is used to evaluate the performance of the trained model 'my_model' on the test data 'X_test' and 'y_test'. The function calculates and prints the accuracy, precision, recall, and F1-score for the model's predictions.
 
 ## Contact
 
-For questions or inquiries, reach out at isoedonald@gmail.com 
-
+For questions or inquiries, reach out at isoedonald@gmail.com
