@@ -28,6 +28,9 @@ def cat_or_num(dataframe, ignore, numeric_columns, categorical_columns):
 def evaluate_model(curr_model, X_test, y_test):
     import pandas as pd
     from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+    
+    #Convert the one-hot encoded y_test to a 1-dimensional array
+    y_test = y_test.argmax(axis=1)
 
     predictions = curr_model.predict(X_test)
 
