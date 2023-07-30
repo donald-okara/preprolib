@@ -66,13 +66,13 @@ When you're ready to submit your contributions, follow these steps:
 Your pull request will be reviewed by the project maintainers. Feedback may be provided to address any necessary changes or improvements. Once the review process is complete, your contributions may be merged into the main repository.
 
 
-#### Reporting Bugs and Issues
+#### Bug Reports
 
-We appreciate your help in improving preprolib! If you encounter any bugs, issues, or unexpected behavior while using the library, please follow these steps to report them:
+We appreciate your help in improving preprolib! If you encounter any bugs or unexpected behavior while using the library, please follow these steps to report them:
 
-1. **Check Existing Issues**: Before reporting a new bug or issue, please search the [issue tracker](link-to-issue-tracker) to see if the problem has already been reported. If you find a similar issue, feel free to add any additional information or context as a comment.
+1. **Check Existing Bug Reports**: Before reporting a new bug, please check if the problem has already been reported by searching the repository's issues.
 
-2. **Open a New Issue**: If you couldn't find an existing issue that matches the problem you encountered, go ahead and [open a new issue](link-to-new-issue) in the [issue tracker](link-to-issue-tracker). When opening a new issue, please provide as much detail as possible, including:
+2. **Open a New Bug Report**: If you couldn't find an existing bug report that matches the issue you encountered, go ahead and [open a new bug report](.github\ISSUE_TEMPLATE\bug_report.md). When opening a new bug report, please provide as much detail as possible, including:
 
    - A clear and descriptive title.
    - A detailed description of the problem or bug.
@@ -81,15 +81,22 @@ We appreciate your help in improving preprolib! If you encounter any bugs, issue
    - Any relevant error messages or logs.
    - Your operating system and Python version.
 
-3. **Issue Discussion**: Once you've opened an issue, other community members and maintainers will join the discussion to help troubleshoot, confirm, and address the problem. Feel free to participate in the conversation and provide additional information if requested.
+3. **Bug Report Discussion**: Once you've opened a bug report, other community members and maintainers will join the discussion to help troubleshoot, confirm, and address the bug. Feel free to participate in the conversation and provide additional information if requested.
 
-4. **Bug Fixes**: If you're willing to help fix the bug or issue, you can submit a pull request with your proposed changes. Please refer to the [Pull Request Guidelines](Guidelines.md#making-contributions) for more information on how to create a pull request.
+#### Feature Requests
 
-By reporting bugs and issues, you contribute to the continuous improvement of preprolib and help create a more reliable and user-friendly library for everyone. Thank you for your valuable feedback!
+If you have ideas for new features, enhancements, or improvements to add to preprolib, we'd love to hear from you! To submit a feature request, follow these steps:
 
+1. **Check Existing Requests**: Before submitting a new feature request, please check if a similar idea has already been suggested by searching the repository's issues.
+
+2. **Open a New Feature Request**: If your feature request is unique or adds significant value to the library, [open a new feature request](.github\ISSUE_TEMPLATE\feature_request.md). When submitting a feature request, please provide a clear and concise description of the proposed feature or enhancement.
+
+3. **Feature Request Discussion**: Once you've submitted a feature request, it will be reviewed by the maintainers and other community members. Feel free to engage in the discussion to provide additional context or clarifications for your proposal.
+
+By reporting bugs and requesting new features, you contribute to the continuous improvement of preprolib and help create a more robust and user-friendly library for everyone. Thank you for your valuable feedback!
 
 ## License
 
-By contributing to preprolib, you agree that your contributions will be licensed under the [MIT License](LICENSE) that covers the entire project.
+The preprolib library is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-Thank you for your valuable contributions to preprolib! Together, we can enhance this library and make data preprocessing more efficient and accessible for the data science community. If you have any questions or need assistance, feel free to reach out to the project maintainers. Happy contributing!
+Thank you for using preprolib! We hope this library simplifies your data preprocessing tasks and enhances your data analysis and machine learning projects. If you have any questions or need further assistance, feel free to reach out to the project maintainers. Happy preprocessing!
