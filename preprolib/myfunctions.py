@@ -34,4 +34,9 @@ def evaluate_model(curr_model, X_test, y_test):
     precision = precision_score(y_test, predictions, average='weighted')
     recall = recall_score(y_test, predictions, average='weighted')
     f1 = f1_score(y_test, predictions, average='weighted')
+    print("predictions")
+    print("accuracy")
+    print("precision")
+    print("recall")
+    print("f1")
 
