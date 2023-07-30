@@ -1,93 +1,75 @@
 # preprolib
 
-This is a Python library for preprocessing functions.
+This is a python library for preprocessing functions.
 
-## How to Install
+#### How to install
 
 Install the library using pip:
 
-1. Open a command prompt or terminal.
-2. Use the following command to install the library directly from GitHub using pip:
+Open a command prompt or terminal.
 
-```
+1. Use the following command to install the library directly from GitHub using pip:
+
+```bash
 pip install git+https://github.com/donald-okara/preprolib.git
 ```
 
-3. Import and Use the Library in Your Code:
+2. Import and use the library in your code:
 
 In your Python script or notebook, import the library or specific modules/functions as needed.
 
 Use the imported functions or modules from your library in your code as you would with any other library.
 
 ```python
-import preprolib.myfunction
+import preprolib.myfunctions
 ```
 
-## Available Functions
+##### Use functions from the library
 
-### 1. cat_or_num()
-
-Function Signature:
 ```python
-def cat_or_num(dataframe, ignore, numeric_columns, categorical_columns):
-```
-
-**Expected Parameters:**
-- `dataframe`: This parameter represents the input pandas DataFrame that contains the data to be processed. It is expected that the input DataFrame has columns with different data types, including numerical and categorical data.
-- `ignore`: This parameter is a list of column names that should be ignored during processing. These columns will not be considered for appending to the `numeric_columns` and `categorical_columns` lists.
-- `numeric_columns`: This parameter is an empty list that will be populated with the names of columns containing numerical data found in the `dataframe`.
-- `categorical_columns`: This parameter is another empty list that will be populated with the names of columns containing categorical data found in the `dataframe`.
-
-**Function Description:**
-The purpose of the `cat_or_num()` function is to examine each column in the input DataFrame (`dataframe`) and identify whether it contains numerical or categorical data. It then appends the column names to the appropriate list, `numeric_columns` for numerical data, and `categorical_columns` for categorical data.
-
-The function performs the following steps:
-
-1. Iterates over each column in the DataFrame (`dataframe`).
-2. Checks if the column name is in the list of columns to ignore (`ignore`). If it is, the column is skipped, and the function moves on to the next column.
-3. For each column, it checks the data type:
-   - If the data type is `float`, the column is considered numerical, and its name is appended to the `numeric_columns` list.
-   - If the data type is a sub-datatype of `integer`, the column is also considered numerical, and its name is appended to the `numeric_columns` list.
-   - If the data type is `object`, the column is considered categorical, and its name is appended to the `categorical_columns` list.
-4. If any of the lists `numeric_columns` or `categorical_columns` do not exist (due to a potential `NameError`), the function handles the error by printing an appropriate message indicating that the corresponding list is not present.
-
-**Usage Example:**
-```python
-import pandas as pd
-from preprolib import myfunctions
-
-# Sample DataFrame
-data = {
-    'Age': [30, 25, 35],
-    'Gender': ['Male', 'Female', 'Male'],
-    'Income': [50000, 60000, 45000],
-    'City': ['New York', 'Los Angeles', 'Chicago']
-}
-
-df = pd.DataFrame(data)
-
-num_cols = []
+# Example: Data Preprocessing
 cat_cols = []
-
+num_cols = []
 ignore_list = ['City']
 
-myfunctions.cat_or_num(df, ignore_list, num_cols, cat_cols)
-
-print("Numerical Columns:", num_cols)
-print("Categorical Columns:", cat_cols)
+preprolib.myfunctions.cat_or_num(df, ignore_list, num_cols, cat_cols)
 ```
 
-**Output:**
+```python
+# Example: Model Evaluation
+from sklearn.ensemble import RandomForestClassifier
+
+rf_model = RandomForestClassifier()
+rf_model.fit(X_train_transformed, y_train)
+
+preprolib.myfunctions.evaluate_model(rf_model, X_test_transformed, y_test)
 ```
-Numerical Columns: ['Age', 'Income']
-Categorical Columns: ['Gender']
-```
 
-In this example, the `cat_or_num()` function is used to identify numerical and categorical columns in the DataFrame `df`. The output shows that the `Age` and `Income` columns are identified as numerical, while the `Gender` column is identified as categorical. The `City` column is ignored as specified in the `ignore_list`.
+### Function Documentation
 
+The preprolib library provides the following functions for data preprocessing and model evaluation:
 
+1. `cat_or_num(dataframe, ignore, numeric_columns, categorical_columns)`: This function identifies numerical and categorical columns in the input DataFrame and appends them to the corresponding lists.
 
-## Contact
+   - `dataframe`: Input pandas DataFrame containing the data to be processed.
+   - `ignore`: List of column names to ignore during processing.
+   - `numeric_columns`: Empty list to store the names of columns containing numerical data.
+   - `categorical_columns`: Empty list to store the names of columns containing categorical data.
 
-For questions or inquiries, reach out at isoedonald@gmail.com 
+2. `evaluate_model(model, X_test, y_test)`: This function evaluates a trained machine learning model on the test dataset.
 
+   - `model`: Trained machine learning model to be evaluated.
+   - `X_test`: Test features.
+   - `y_test`: Test labels.
+
+3. `other_function()`: This function provides an example of another function that could be added to the library.
+
+### Contribution Guidelines
+
+Please check the [Contribution Guidelines](Guidelines.md) for instructions on how to contribute to the development of preprolib.
+
+## License
+
+The preprolib library is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+Thank you for using preprolib! We hope this library simplifies your data preprocessing tasks and enhances your data analysis and machine learning projects. If you have any questions or need further assistance, feel free to reach out to the project maintainers. Happy preprocessing!
