@@ -30,7 +30,7 @@ cat_cols = []
 num_cols = []
 ignore_list = ['City']
 
-preprolib.myfunctions.cat_or_num(df, ignore_list, num_cols, cat_cols)
+myfunctions.cat_or_num(df, ignore_list, num_cols, cat_cols)
 ```
 
 ```python
@@ -40,7 +40,7 @@ from sklearn.ensemble import RandomForestClassifier
 rf_model = RandomForestClassifier()
 rf_model.fit(X_train_transformed, y_train)
 
-preprolib.myfunctions.evaluate_model(rf_model, X_test_transformed, y_test)
+myfunctions.evaluate_model(rf_model, X_test_transformed, y_test)
 ```
 
 ### Function Documentation
