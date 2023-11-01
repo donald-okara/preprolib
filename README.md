@@ -60,7 +60,6 @@ The preprolib library provides the following functions for data preprocessing an
    - `X_test`: Test features.
    - `y_test`: Test labels.
 
-3. `other_function()`: This function provides an example of another function that could be added to the library.
 
 ### Contribution Guidelines
 
